@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../styles/styles.css';
+import '../../styles/styles.css';
 import { Link } from 'react-router-dom';
-import myImage from '../images/Watch_Later_Logo_Full.svg';
+import myImage from '../../images/Watch_Later_Logo_Full.svg';
 
 const Fields = ({ buttonText }) => {
     const [email, setEmail] = useState('');
@@ -40,7 +40,6 @@ const Fields = ({ buttonText }) => {
     return (
         <div className="login-container shared-styles">
             <div className="input-container">
-                <img src={myImage} alt="" className="registration-logo" />
                 <input
                     type="text"
                     placeholder="Адрес электронной почты"

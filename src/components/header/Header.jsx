@@ -1,11 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import '../styles/styles.css';
-import search from '../images/search.svg';
-import collect from '../images/collection.svg';
-import add from '../images/add.svg';
-import avatar from '../images/avatar.svg';
-import agon from '../images/agon.svg'
+import '../../styles/styles.css';
+import search from '../../images/search.svg';
+import collect from '../../images/collection.svg';
+import add from '../../images/add.svg';
+import avatar from '../../images/avatar.svg';
+import agon from '../../images/agon.svg'
 
 const IconButton = ({ text, icon, onClick, active }) => (
     <button className={`icon-button ${active ? 'active' : ''}`} onClick={onClick}>

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Header } from "../components/Header";
+import { Header } from "../header/Header";
 import { films, watched } from "../constants";
-import FilmContainer from "../components/FilmContainer";
+import FilmContainer from "../films/FilmContainer";
 
 const Collection = () => (
     <>

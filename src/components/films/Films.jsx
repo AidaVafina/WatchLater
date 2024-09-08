@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { films } from "./constants";
-import { watched } from "./constants";
-import '../styles/styles.css';
+import { films } from "../constants";
+import { watched } from "../constants";
+import '../../styles/styles.css';
 import FilmTitle from "./FilmTitle";
-import filmscoll from "../images/filmscoll.svg";
+import filmscoll from "../../images/filmscoll.svg";
 
 export function Films() {
     const [activeButton, setActiveButton] = useState("toWatch");

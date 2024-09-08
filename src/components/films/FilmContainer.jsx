@@ -1,6 +1,6 @@
 import React from 'react';
 import FilmItem from "./FilmItem";
-import '../styles/styles.css';
+import '../../styles/styles.css';
 
 const FilmContainer = ({ title, films }) => (
     <div className="film-container3">

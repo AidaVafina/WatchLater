@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/styles.css';
 import avatarPlaceholder from '../images/avatar.svg';
-import { Header } from "../components/Header";
+import { Header } from "../components/header/Header";
 
 const Profile = () => {
     const [isEditing, setIsEditing] = useState(false);

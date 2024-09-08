@@ -8,6 +8,7 @@ import Search from "./pages/Search";
 import Details from "./pages/Details";
 import Profile from "./pages/Profile";
 import Add from "./pages/Add";
+import {Header} from "./components/header/Header";
 
 function App() {
     return (

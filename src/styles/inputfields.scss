@@ -1,0 +1,79 @@
+/* стили для LoginForm */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.field-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-login {
+  width: 100%;
+  margin-top: -300px;
+}
+
+.register-link {
+  display: flex;
+  position: absolute;
+  top: 550px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 0; /* Убираем отступы слева и справа */
+  font-size: 16px;
+  border: none; /* Убираем все границы */
+  border-bottom: 2px solid #ccc; /* Оставляем только нижнюю границу */
+  background-color: transparent; /* Прозрачный фон */
+  outline: none; /* Убираем стандартное выделение */
+  transition: border-color 0.3s; /* Плавный переход при фокусе */
+  text-align: center; /* Горизонтальное центрирование текста */
+}
+
+.input:focus {
+  border-bottom: 2px solid #007bff; /* Изменяем цвет нижней границы при фокусе */
+}
+
+.input-error {
+  border-bottom: 2px solid red; /* Если ошибка, нижняя граница красная */
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+button {
+  display: flex;
+  position: absolute;
+  padding: 10px;
+  background-color: #74748014;
+  color: rgba(60, 60, 67, 0.30);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-bottom: 15em;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:disabled {
+  background-color: #ccc;
+}
+
+.button:hover {
+  background-color: #002DFF;
+  color: #ffffff;
+}
+

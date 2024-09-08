@@ -1,0 +1,38 @@
+.first-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.imageNew-first-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25em;
+  height: auto;
+  margin-top: -100px;
+  margin-bottom: -100px;
+}
+
+button {
+  display: flex;
+  position: absolute;
+  bottom: 100px;
+  width: 149px;
+  height: 50px;
+  flex-shrink: 0;
+  padding: 10px;
+  background-color: #74748014;
+  color: rgba(60, 60, 67, 0.30);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}

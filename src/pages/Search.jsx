@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import { Header } from "../components/Header";
-import FilmContainer from "../components/FilmContainer";
+import { Header } from "../components/header/Header";
+import FilmContainer from "../components/films/FilmContainer";
 import { films, watched } from "../components/constants";
 
 const Search = () => {

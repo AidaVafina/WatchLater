@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import '../styles/styles.css';
-import {Header} from "../components/Header";
+import {Header} from "../components/header/Header";
 
 const Details = () => {
     const { filmId } = useParams();

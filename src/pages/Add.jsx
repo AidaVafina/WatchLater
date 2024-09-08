@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/styles.css';
-import { Header } from "../components/Header";
+import { Header } from "../components/header/Header";
 
 const Add = () => (
     <>
